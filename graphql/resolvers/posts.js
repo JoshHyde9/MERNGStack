@@ -10,7 +10,7 @@ module.exports = {
         throw new Error(err);
       }
     },
-    async getPosts(_, { postId }) {
+    async getPost(_, { postId }) {
       try {
         const post = await Post.findById(postId);
 
@@ -24,4 +24,7 @@ module.exports = {
       }
     }
   }
+  // Mutation: {
+  //   async createPost(_, { body }, context) {}
+  // }
 };
