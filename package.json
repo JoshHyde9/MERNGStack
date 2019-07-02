@@ -1,0 +1,24 @@
+{
+  "name": "merngstack",
+  "version": "1.0.0",
+  "description": "social network using the merng stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshHyde9/MERNGStack.git"
+  },
+  "author": "Josh Hyde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshHyde9/MERNGStack/issues"
+  },
+  "homepage": "https://github.com/JoshHyde9/MERNGStack#readme",
+  "dependencies": {
+    "apollo-server": "^2.7.0-alpha.3",
+    "graphql": "^14.4.1",
+    "mongoose": "^5.6.2"
+  }
+}
