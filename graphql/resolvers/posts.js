@@ -51,7 +51,7 @@ module.exports = {
           await post.delete();
           return "Post deleted successfully.";
         } else {
-          throw new AuthenticationError("Action now allowed.");
+          throw new AuthenticationError("Action not allowed.");
         }
       } catch (err) {
         throw new Error(err);
