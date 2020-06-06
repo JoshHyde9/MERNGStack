@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/JoshHyde9/MERNGStack#readme",
   "dependencies": {
-    "apollo-server": "^2.7.0-alpha.3",
+    "apollo-server": "^2.14.2",
     "bcryptjs": "^2.4.3",
     "graphql": "^14.4.1",
     "jsonwebtoken": "^8.5.1",
